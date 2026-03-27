@@ -8,11 +8,25 @@ body {
   letter-spacing: 0.02em;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* #region header */
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -25,31 +39,47 @@ body {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-logo .logo-span {
   color: #2e2f42;
 }
 
 .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .nav-item {
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
 
 .address {
+  margin-left: auto;
 }
 
 .address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .address-item {
 }
 
 .address-link {
+  display: block;
+  padding: 24px 0;
   color: #434455;
 }
 
